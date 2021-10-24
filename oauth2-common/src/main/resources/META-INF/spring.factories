@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.butterfly.common.exception.GlobalExceptionHandler
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.butterfly.common.exception.GlobalExceptionHandler,\
+  cn.butterfly.common.service.impl.UserServiceImpl

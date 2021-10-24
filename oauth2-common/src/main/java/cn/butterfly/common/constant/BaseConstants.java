@@ -32,9 +32,9 @@ public class BaseConstants {
 
     public static final String ALL_PATTERN = "/**";
 
-    public static final String API_PATTERN = "/api/**";
-
     public static final String LOGIN_PATH = "/login";
+
+    public static final String OAUTH_PATH = "/oauth/**";
 
     public static final String ERROR_PATH = "/error";
 

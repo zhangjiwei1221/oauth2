@@ -1,6 +1,6 @@
-package cn.butterfly.github.service;
+package cn.butterfly.common.service;
 
-import cn.butterfly.github.entity.User;
+import cn.butterfly.common.entity.User;
 
 /**
  * 用户服务类

@@ -34,8 +34,8 @@ public class WebConfig extends WebMvcConfigurationSupport {
 	@Override
 	protected void addInterceptors(InterceptorRegistry registry) {
 		registry.addInterceptor(httpInterceptor)
-				.addPathPatterns(API_PATTERN)
-				.excludePathPatterns(LOGIN_PATH, ERROR_PATH);
+				.addPathPatterns(ALL_PATTERN)
+				.excludePathPatterns(LOGIN_PATH, OAUTH_PATH, ERROR_PATH);
 		super.addInterceptors(registry);
 	}
 

@@ -2,8 +2,8 @@ package cn.butterfly.github.controller;
 
 import cn.butterfly.common.base.BaseResult;
 import cn.butterfly.common.base.UserType;
-import cn.butterfly.github.entity.User;
-import cn.butterfly.github.service.IUserService;
+import cn.butterfly.common.entity.User;
+import cn.butterfly.common.service.IUserService;
 import cn.butterfly.common.util.JwtUtils;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package cn.butterfly.github.entity;
+package cn.butterfly.common.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

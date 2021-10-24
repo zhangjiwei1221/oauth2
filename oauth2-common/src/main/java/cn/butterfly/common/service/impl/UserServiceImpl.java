@@ -1,8 +1,8 @@
-package cn.butterfly.github.service.impl;
+package cn.butterfly.common.service.impl;
 
 import cn.butterfly.common.base.UserType;
-import cn.butterfly.github.entity.User;
-import cn.butterfly.github.service.IUserService;
+import cn.butterfly.common.entity.User;
+import cn.butterfly.common.service.IUserService;
 import org.springframework.stereotype.Service;
 import static cn.butterfly.common.constant.BaseConstants.DEFAULT_PASSWORD;
 
