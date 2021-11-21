@@ -20,7 +20,7 @@ public class BaseConstants {
 
     public static final String LOGIN_FAILED = "用户名或密码错误";
 
-    public static final String DEFAULT_PASSWORD = "123456";
+    public static final String DEFAULT_PASSWORD = "$2a$10$KvJWyf4wI.YcpzmbYGw8NOSlauim7dF9b/VSMOomONJf40Bq8F4Me";
 
     public static final String USERNAME_CANT_EMPTY = "用户名不可为空";
 
@@ -49,6 +49,8 @@ public class BaseConstants {
     public static final String UTF_8 = "UTF-8";
 
     public static final String JSON_TYPE = "application/json;charset=utf-8";
+
+    public static final String BASIC_TYPE = "Basic ";
 
     private BaseConstants() {}
 

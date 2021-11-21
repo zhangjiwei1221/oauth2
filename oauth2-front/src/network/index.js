@@ -1,8 +1,4 @@
-import {
-  HOST,
-  TOKEN,
-  TIME_OUT
-} from '@/assets/js/const'
+import {HOST, TIME_OUT, TOKEN} from '@/assets/js/const'
 import axios from 'axios'
 
 export function request(config) {

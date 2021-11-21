@@ -12,12 +12,9 @@
 </template>
 
 <script>
-import {
-  Button,
-  Message
-} from 'element-ui'
-import { mapMutations } from 'vuex'
-import { request } from '@/network'
+import {Button, Message} from 'element-ui'
+import {mapMutations} from 'vuex'
+import {request} from '@/network'
 
 export default {
   name: 'Home',
@@ -32,7 +29,7 @@ export default {
   created() {
     request({
       method: 'get',
-      url: '/token/info'
+      url: '/token/github/info'
     }).then(res => {
       const _ = res.data
       this.user = {
@@ -49,7 +46,7 @@ export default {
       Message.success('注销成功')
     },
     getTypeName(type = 0) {
-      const typeNameArr = ['平台用户', 'GitHub 用户', 'Oauth2用户', '未知用户']
+      const typeNameArr = ['平台用户', 'GitHub 用户', 'OAuth2 用户', '未知用户']
       type = Math.min(type, typeNameArr.length - 1)
       return typeNameArr[type]
     }

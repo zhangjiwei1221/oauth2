@@ -3,7 +3,9 @@ package cn.butterfly.common.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import javax.validation.constraints.NotBlank;
+
 import static cn.butterfly.common.constant.BaseConstants.PASSWORD_CANT_EMPTY;
 import static cn.butterfly.common.constant.BaseConstants.USERNAME_CANT_EMPTY;
 

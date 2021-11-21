@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { TOKEN } from '@/assets/js/const'
+import {TOKEN} from '@/assets/js/const'
 
 Vue.use(Vuex)
 

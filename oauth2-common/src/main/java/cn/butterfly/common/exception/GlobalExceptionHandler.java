@@ -2,8 +2,11 @@ package cn.butterfly.common.exception;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+
 import javax.servlet.http.HttpServletResponse;
-import static cn.butterfly.common.constant.BaseConstants.*;
+
+import static cn.butterfly.common.constant.BaseConstants.ERROR_PAGE;
+import static cn.butterfly.common.constant.BaseConstants.REDIRECT_FAILED;
 
 /**
  * 自定义异常

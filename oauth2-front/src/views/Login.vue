@@ -28,7 +28,7 @@
           <img src="@/assets/img/github.png" alt="" @click="githubAuthorize">
         </div>
         <div class="box-radius">
-          <img src="@/assets/img/oauth.png" alt="">
+          <img src="@/assets/img/oauth.png" alt="" @click="oauth2Authorize">
         </div>
       </div>
     </div>
@@ -36,14 +36,10 @@
 </template>
 
 <script>
-import {
-  Form,
-  Message,
-  FormItem
-} from 'element-ui'
-import { request } from '@/network'
-import { ERROR } from '@/assets/js/const'
-import { mapMutations } from 'vuex'
+import {Form, FormItem, Message} from 'element-ui'
+import {request} from '@/network'
+import {ERROR} from '@/assets/js/const'
+import {mapMutations} from 'vuex'
 
 export default {
   name: 'Login',
@@ -88,8 +84,12 @@ export default {
     },
     githubAuthorize() {
       const env = process.env
-      window.location.href = `https://github.com/login/oauth/authorize?client_id=${env.VUE_APP_OAUTH_CLIENT_ID}
-        &redirect_uri=${env.VUE_APP_OAUTH_REDIRECT_URI}`
+      window.location.href = `https://github.com/login/oauth/authorize?client_id=${env.VUE_APP_GITHUB_CLIENT_ID}
+        &redirect_uri=${env.VUE_APP_GITHUB_REDIRECT_URI}`
+    },
+    oauth2Authorize() {
+      const env = process.env
+      window.location.href = `http://localhost:9002/oauth/authorize?client_id=${env.VUE_APP_OAUTH_CLIENT_ID}&response_type=code`
     }
   }
 }

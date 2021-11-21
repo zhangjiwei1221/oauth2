@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+oauth:
+  github:
+    clientId: 8aed0bc8316548e9d26d
+    clientSecret: fdd0e7af5052164e459098703005c5db25f857a8
+    frontRedirectUrl: http://localhost/redirect
+  oauth2:
+    clientId: butterfly
+    clientSecret: 123456
+    frontRedirectUrl: http://localhost/redirect
+
+retrofit:
+  global-connect-timeout-ms: 20000
+  global-read-timeout-ms: 10000

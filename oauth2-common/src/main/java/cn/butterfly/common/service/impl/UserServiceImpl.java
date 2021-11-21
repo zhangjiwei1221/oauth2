@@ -4,6 +4,7 @@ import cn.butterfly.common.base.UserType;
 import cn.butterfly.common.entity.User;
 import cn.butterfly.common.service.IUserService;
 import org.springframework.stereotype.Service;
+
 import static cn.butterfly.common.constant.BaseConstants.DEFAULT_PASSWORD;
 
 /**

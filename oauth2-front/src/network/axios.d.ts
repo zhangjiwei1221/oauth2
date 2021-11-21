@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 declare module 'axios' {
     interface IAxios<D = null> {
         code: string

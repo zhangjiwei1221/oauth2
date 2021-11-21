@@ -4,7 +4,9 @@ import cn.butterfly.common.constant.BaseConstants;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
-import static cn.butterfly.common.constant.BaseConstants.*;
+
+import static cn.butterfly.common.constant.BaseConstants.ERROR;
+import static cn.butterfly.common.constant.BaseConstants.SUCCESS;
 
 /**
  * 控制器返回结果基本类

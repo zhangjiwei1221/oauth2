@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import { TOKEN, WEBSITE_NAME } from '@/assets/js/const'
+import {TOKEN, WEBSITE_NAME} from '@/assets/js/const'
 
 const originalPush = VueRouter.prototype.push
 
