@@ -84,8 +84,7 @@ export default {
     },
     githubAuthorize() {
       const env = process.env
-      window.location.href = `https://github.com/login/oauth/authorize?client_id=${env.VUE_APP_GITHUB_CLIENT_ID}
-        &redirect_uri=${env.VUE_APP_GITHUB_REDIRECT_URI}`
+      window.location.href = `https://github.com/login/oauth/authorize?client_id=${env.VUE_APP_GITHUB_CLIENT_ID}&redirect_uri=${env.VUE_APP_GITHUB_REDIRECT_URI}`
     },
     oauth2Authorize() {
       const env = process.env
